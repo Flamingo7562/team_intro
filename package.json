@@ -24,6 +24,9 @@
       "eslint --fix",
       "prettier --write"
     ],
+    "*.{html}": [
+      "prettier --write"
+    ],
     "*.{json,md}": [
       "prettier --write"
     ]
